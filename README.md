@@ -1,6 +1,6 @@
 - - -
 
-**_This project is not actively maintained. Proceed at your own risk!_**
+**_This project is personally forked and temporarily patched version of [python-instagram](https://github.com/facebookarchive/python-instagram). Proceed at your own risk!_**
 
 - - - 
 
