@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name="python-instagram-ext",
-      version="1.3.3",
+      version="1.3.4",
       description="Life extended Instagram API client",
       license="MIT",
       install_requires=["simplejson","httplib2","six"],
