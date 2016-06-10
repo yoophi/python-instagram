@@ -235,7 +235,7 @@ class InstagramAPITests(unittest.TestCase):
         # test shortcuts as well
         self.api.follow_user(user_id='10')
         self.api.unfollow_user(user_id='10')
-        
+
 
 if __name__ == '__main__':
     if not TEST_AUTH:
