@@ -186,7 +186,6 @@ class InstagramAPI(oauth2.OAuth2API):
                 requires_target_user=True,
                 response_type="entry")
 
-    @staticmethod
     def _make_relationship_shortcut(action):
         def _inner(self, *args, **kwargs):
             return self.change_user_relationship(user_id=kwargs.get("user_id"),
@@ -200,7 +199,6 @@ class InstagramAPI(oauth2.OAuth2API):
     approve_user_request = _make_relationship_shortcut('approve')
     ignore_user_request = _make_relationship_shortcut('ignore')
 
-    @staticmethod
     def _make_subscription_action(method, include=None, exclude=None):
         accepts_parameters = ["object",
                               "aspect",
