@@ -4,7 +4,7 @@
 
 - - - 
 
-[![Build Status](https://api.travis-ci.org/Instagram/python-instagram.svg)](https://travis-ci.org/Instagram/python-instagram)
+[![Build Status](https://travis-ci.org/Seraphicer/python-instagram.svg?branch=master)](https://travis-ci.org/Seraphicer/python-instagram)
 
 python-instagram
 ======
