@@ -13,7 +13,7 @@ A Python 2/3 client for the Instagram REST and Search APIs
 Installation
 -----
 ```
-pip install python-instagram
+pip install python-instagram-ext
 ```
 Requires
 -----
